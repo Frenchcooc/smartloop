@@ -1,0 +1,381 @@
+/* RESET */
+@import 'reset.css';
+@import 'nav.css';
+
+html, body {
+    overflow-x: hidden;
+}
+
+footer a {
+    color: inherit;
+    font-weight: inherit;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+/* Desktop */
+.br-mobile {
+  display: none;
+}
+.br-desktop {
+  display: inline;
+}
+
+.qc-mobile {
+  display: none;
+}
+.qc-desktop {
+  display: inline;
+}
+/* Shit that Matters */
+
+/*#one {
+  background-color: #f5536e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}*/
+
+
+/*f44142 old dark*/
+/*f5536e  old bright*/
+.header-container {
+  /*background-color: #f5536e;*/
+  background: linear-gradient(to bottom right, #ff5773, #ff1c1c);
+  color: white;
+  overflow: hidden;
+  position: relative;
+  height: 700px;
+  transition: all 1s;
+}
+  .header-text {
+    margin-top: 100px;
+    text-align: center;
+  }
+    .header-text h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .header-text p {
+        font-size: 22px;
+        font-weight: 300;
+        color: white;
+        font-weight: 300;
+    }
+  .top-cases-container {
+    width: 1150px;
+    position: absolute;
+    top: 30%;
+    left: 50%; margin-left: -150px;
+  }
+      .cases-top2 {
+        position: absolute;
+        top: -100px; left: -100px;
+        transition: all 1.2s;
+      }
+article {
+  background-color: white;
+}
+
+/*
+body {
+  overflow-x: hidden;
+  min-width: 1200px;
+}*/
+
+
+h2 {
+  font-family: 'Avenir Next', 'Nunito Sans', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+p {
+    font-size: 23px;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+/*
+p {
+  font-family: 'Avenir Next', 'Nunito Sans', sans-serif;
+
+}*/
+
+
+
+.freshwrap {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  text-align: center;
+  padding: 50px;
+}
+.imgs-freshspecials {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+      .imgs-freshspecials a {
+          text-decoration: none;
+          border: none;
+          font-weight: normal;
+          margin: 0; padding: 0;
+          position: relative;
+          display: inline-block;
+      }
+.imgs-freshspecials .product-price {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+  position: absolute;
+}
+
+.imgs-freshspecials .product-price.product-price-bottom-right {
+  bottom: 20px; right: 20px;
+}
+
+.imgs-freshspecials .product-price.product-price-bottom-left {
+  bottom: 20px; left: 20px;
+}
+
+.imgs-freshspecials .product-price.product-price-top-right {
+  top: 20px; right: 20px;
+}
+
+.imgs-freshspecials .product-price.product-price-top-left {
+  top: 20px; left: 20px;
+}
+
+.imgs-freshspecials .product-price sup {
+  font-size: 0.8rem; font-weight: normal;
+}
+    .fresh-offset-top {
+      width: 1475px;
+      /*max-width: 1475px;*/
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: wrap;
+    }
+    .fresh-offset-bottom {
+      width: 1475px;
+      /*max-width: 1475px;*/
+      display: flex;
+      justify-content: flex-end;
+      flex-flow: wrap;
+    }
+    .special {
+      margin: 10px;
+      max-width: 600px;
+    }
+
+.bearlythere {
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0 0 0;
+}
+
+  .wowmuchthin {
+    max-width: 960px;
+    height: auto;
+    margin: 50px 0 0 0;
+  }
+
+  .goodpoints {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 600px;
+    /*background-color: blue;*/
+    margin: 50px 0 0 0;
+  }
+    .point {
+      width: 100px;
+      height: 100px;
+      /*margin: 1em 2em;*/
+    }
+
+.qualitybears {
+  text-align: center;
+  padding: 100px 0 0 0;
+
+}
+    .qualitycards {
+      margin: 20px 0 0 0;
+      width: 900px;
+      height: auto;
+    }
+
+.footsies {
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+    .left-logo {
+        border-right: 1px solid #7a7a7a;
+        padding-right: 20px;
+        display: inline-block;
+    }
+    .right-contact {
+        padding-left: 20px;
+        text-align: left;
+        display: inline-block;
+        opacity: 0.8;
+    }
+  .footbolty {
+    width: 80px; height: auto;
+    margin: 0 0 0 0; padding: 0 0 0 0;
+  }
+
+  .footsies h3 {
+    font-size: 17px;
+    font-weight: normal;
+    padding: 0; margin: -12px 0 20px 0;
+    letter-spacing: 0px;
+  }
+
+  .footsies h4 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+@media (max-width: 1345px) {
+
+  .imgs-freshspecials {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+  }
+    .fresh-offset-top {
+      /*width: 1475px;*/
+      /*max-width: 1475px;*/
+      display: flex;
+      justify-content: center;
+      flex-flow: wrap;
+      /*background-color: blue;*/
+    }
+    .fresh-offset-bottom {
+      /*width: 1475px;*/
+      /*max-width: 1475px;*/
+      display: flex;
+      justify-content: center;
+      flex-flow: wrap;
+    }
+
+    .wowmuchthin {
+      max-width: 680px; height: auto;
+    }
+    .goodpoints {
+      width: 450px;
+      /*background-color: purple;*/
+      margin: 20px 0 0 0;
+    }
+    .point {
+      width: 80px;
+      height: 80px;
+      /*margin: 1em 2em;*/
+    }
+
+    .special {
+      /*margin: 10px;*/
+      max-width: 350px; height: 350px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+  .freshwrap {
+    /*background-color: blue;*/
+  }
+  .wowmuchthin {
+    max-width: 480px;
+    height: auto;
+  }
+  .goodpoints {
+    width: 90%;
+    margin: 20px 0 0 0;
+  }
+  .point {
+    width: 75px;
+    height: 75px;
+  }
+  .special {
+    max-width: 250px; height: 250px;
+  }
+  .qualitycards {
+      margin-left: 50%;
+        transform: translateX(-50%);
+        max-width: 530px;
+  }
+}
+
+@media (max-width: 700px) {
+  .br-mobile {
+    display: inline;
+  }
+
+  .top-cases-container {
+    top: 37%;
+  }
+
+  .header-text h1 {
+      font-size: 37px;
+      line-height: 45px;
+      margin-bottom: 10px;
+  }
+  .header-text p {
+      font-size: 20px;
+      font-weight: 400;
+  }
+
+  h2 {
+      font-size: 42px;
+      line-height: 40px;
+      margin-bottom: 10px;
+  }
+  p {
+      font-size: 20px;
+  }
+
+  .goodpoints {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: purple;*/
+    margin: 20px 0 0 0;
+  }
+      .point {
+        margin: 10px 0px;
+      }
+  .br-desktop {
+    display: hidden;
+  }
+
+  .wowmuchthin {
+    max-width: 95%;
+    height: auto;
+  }
+  .special {
+    max-width: 320px; height: 320px;
+    margin: 10px 0px; padding: 0;
+  }
+
+  .cases-top2 {
+    position: absolute;
+    top: -100px; left: -190px;
+    transform: scale(0.8);
+  }
+  .footsies h3 {
+    font-size: 16px;
+  }
+
+  .footsies h4 {
+    font-size: 15px;
+  }
+}

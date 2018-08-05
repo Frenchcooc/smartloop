@@ -1,0 +1,121 @@
+@import 'cart.css';
+@import 'menu.css';
+
+html {
+    width: 100%;
+}
+body {
+    font-family: 'Avenir Next', 'Nunito Sans', sans-serif;
+    width: 100%;
+}
+
+nav {
+  color: black;
+  position: fixed;
+  width: 100%; height: 86px;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 50;
+}
+  .cart {
+    width: 30px;
+    height: 28px;
+  }
+  .navbolty {
+    //transform: translateX(80%);
+    //transform: translateX(-50%);
+    height: 80px; width: auto;
+  }
+  .menus {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-20%);
+  }
+    nav a {
+
+      font-size: 1.2em;
+      cursor: pointer;
+      font-weight: 600;
+    }
+      .selected-page {
+        border-bottom: 3px solid black;
+      }
+    nav .buy-btn {
+        background-color: white;
+        padding: 7px 25px;
+        color: red;
+        border-radius: 30px;
+    }
+
+
+.mobile-menus-container {
+  display: none;
+}
+
+@media (max-width: 700px) {
+
+  .menus {
+    transform: none;
+  }
+
+  .navbolty {
+    //transform: translateX(-35%);
+  }
+
+  .cart {
+    position: fixed;
+    top: 4%;
+    left: 5%;
+
+  }
+
+    .hamburger{
+      background:none;
+      position:absolute;
+      top:0;
+      right:0;
+      line-height:45px;
+      padding:5px 15px 0px 15px;
+      color:#fff;
+      border:0;
+      font-size:1.4em;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:1000;
+    }
+    .cross{
+      background:none;
+      position:absolute;
+      top:0px;
+      right:0;
+      padding:13px 15px 0px 15px;
+      color:#fff;
+      border:0;
+      font-size:3em;
+      line-height:65px;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:10000;
+    }
+        .hamburger-options-container {
+          z-index:1000;
+          font-weight:bold;
+          font-size:22px;
+          width:120px; height: 150px;
+          padding: 0px 5px; b
+          background: #f5536e;
+          border: 1px solid white;
+          transform: translateY(50%);
+          text-align:center;
+        }
+}
+
+@media (max-width: 450px) {
+  .bolt-container {
+    transform: translateX(0%);
+  }
+}
